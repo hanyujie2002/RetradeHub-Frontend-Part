@@ -1,0 +1,22 @@
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 330px;
+    margin: auto;
+}
+
+.product:hover {
+    background-color: #f7f7f7;
+}
+
+.product:active {
+    background-color: #a4a4a4;
+}
+
+.link:link, .link:visited {
+    text-decoration: none;
+    color: black;
+}
